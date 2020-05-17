@@ -1,0 +1,8 @@
+app:
+  password:
+    length:
+      param-name: length
+      default: ${DEFAULT_LENGTH:9}
+    duplicated:
+      param-name: duplicated
+      default: ${DEFAULT_DUPLICATED:false}
